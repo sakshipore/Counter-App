@@ -1,6 +1,7 @@
-import 'package:counter_app/cubit/counter_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../logic/cubit/counter_cubit.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
